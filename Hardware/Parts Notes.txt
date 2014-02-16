@@ -1,7 +1,3 @@
-
-
-
-
 Parts:
 64 D flip-flops (74hc273 is an octal D flip flop)
 32 AND gates
@@ -9,11 +5,15 @@ Parts:
 4 NOT gates
 29 pullup resistors
 1 8-positon DIP switch
-About 100 headers
+84 headers
+64 LEDs
 
 
 Actual parts needed:
-8 x 74hc273
-64 x 525nm 5mm LED
-64 x 68 ohm resistor (100 ohm would probably work, look into resistor packs?)
-28 x 10k resistors (pull ups)
+8 x 74HC273 				--> 296-1587-5-ND
+64 x 525nm 5mm LED 			--> LTL-10223
+64 x 68 ohm resistor 			--> 8 x 4116R-1-680L
+28 x 10k resistors 			--> 6 x 4609X-101-103LF
+2 x 74HC00				--> 296-1563-5-ND
+8 x 74HC08				--> TC74HC08APF-ND
+1 x 74HC04				--> TC74HC04APF-ND
