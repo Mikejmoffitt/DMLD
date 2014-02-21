@@ -1,19 +1,44 @@
 Parts:
-64 D flip-flops (74hc273 is an octal D flip flop)
+64 D flip-flops (74HC273 is an octal D flip flop)
 32 AND gates
 8 NAND gates
 4 NOT gates
 29 pullup resistors
 1 8-positon DIP switch
-84 headers
 64 LEDs
+2 x 6 x 6" or bigger proto board (perforated, copper-clad)
+
+For the connection between the control board and the LED board, 8 2x5 pin connectors and cables will be used.
+These are often referred to as a "2x5 pin IDC ribbon cable" and are used for AVR programming, etc. Same kind
+of connector as motherboard USB headers.
+
+For connections between adjacent boards, a 20-pin ribbon cable will be used. 
+
+For power connections, four 3.3V and GROUND terminals will be present each.
+
+========== ACTUAL PART LIST ============
+These parts are needed to assemble one 6" x 6" board, which is one 8x8 pixel element for a matrix.
+All of the following parts should be available from digikey.
+
+	Qty			Name				Part                    Unit Price		Total Price
+--------------------------------------------------------------------------------------------
+	10			74HC273 			296-1587-5-ND			0.464			4.64
+	64			525nm 5mm LED 		LTL-10223				0.248			16.872
+	8			Resistor Pack	 	4116R-1-151-ND			0.760			6.08
+	6			Pullup resistors 	4609X-101-103LF-ND		0.390			2.34			
+	2			74HC00				296-1563-5-ND			0.52			1.04
+	8			74HC08				TC74HC08APF-ND			0.49			3.92
+	1			74HC04				TC74HC04APF-ND			0.47			0.47
+	2			6x6 perfboard		V2012-ND				10.59			21.18
+	1			DIP switch			CT2088-ND				0.83			0.83
+	10			2x5 interconnect	30310-6002HB-ND			0.60			6.00
+	4			1x10 interconnect	S9172-ND				0.72			8.00
+	4			Terminal Block		ED10561-ND				0.54			1.80	
 
 
-Actual parts needed:
-8 x 74HC273 				--> 296-1587-5-ND
-64 x 525nm 5mm LED 			--> LTL-10223
-64 x 68 ohm resistor 			--> 8 x 4116R-1-680L
-28 x 10k resistors 			--> 6 x 4609X-101-103LF
-2 x 74HC00				--> 296-1563-5-ND
-8 x 74HC08				--> TC74HC08APF-ND
-1 x 74HC04				--> TC74HC04APF-ND
+Single prototype grand total: $73.173
+
+Naturally, the pricing becomes more efficient as larger bulk orders are made. Once a PCB is designed, that will
+hopefully be cheaper than ordering perfboard and building on that (duh). 
+
+The dimensions of the sign space we are filling is ~ 81 x 47"
