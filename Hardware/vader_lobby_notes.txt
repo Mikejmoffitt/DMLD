@@ -1,0 +1,28 @@
+The elevator lobby has a rough area of 
+
+    81" x 46"
+
+Now let's get that into real-man units, rounding down:
+
+	205cm x 116cm
+
+If we make a lot of 10 x 10cm boards, each board an 8x8 array, we get
+a display 
+
+	20 x 11 panels ( 220 panels total )
+
+in size, which gives a resolution of
+
+	160 x 88
+
+pixels. 
+
+DirtyPCBs will be able to make that for us with a division of a regular
+200bd order, plus two protopacks (10 x 10cm is the protopack max). The
+PCB cost will be: 
+
+	$425 shipped for the batch of 200
+	$14 x 2 shipped for the 2 orders of 10 protopack
+
+Obviously, we should buy the protopack first to be sure the boards
+actually will work. 

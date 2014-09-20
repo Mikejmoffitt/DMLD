@@ -1,0 +1,16 @@
+
+DMLD Serial Protocol:
+
+/CLK
+DATA
+/CAP
+
+When /CAP goes low, the CPLD prepares to capture a "frame". It will then
+
+1) Panel ID (8 bits)
+2) Line ID (3 bits)
+3) Line data (8 bits)
+
+If the Panel ID matches the one set with the DIP switch, the Line ID is then
+used to determine which octal flip flop's /WE line to pull low. Following 
+that, the captured line data is then latched into the flip flop.

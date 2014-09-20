@@ -1,0 +1,16 @@
+
+
+
+
+
+DMLD Serial Protocol:
+
+/CLK
+DATA
+/STROBE
+
+When /STROBE goes low, the CPLD prepares to capture a "frame".
+
+1) Panel ID (8 bits)
+2) Line ID (3 bits)
+3) Line data
